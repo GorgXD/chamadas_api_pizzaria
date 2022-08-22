@@ -1,0 +1,33 @@
+_id: req_cb8bfefa94344ec39a26bf62c2deb309
+type: Request
+parentId: fld_93eff4f967194728862bb2a1bea7626b
+modified: 1660943030772
+created: 1660929717696
+url: localhost:3333/order
+name: Criar Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"table": 1,
+    	"name": "fulano"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_921e71209f63418da3cd1075742f60b9
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660877128271.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

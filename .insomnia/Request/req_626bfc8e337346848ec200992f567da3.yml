@@ -1,0 +1,34 @@
+_id: req_626bfc8e337346848ec200992f567da3
+type: Request
+parentId: fld_9f03afb438ff4e328048b85300e556b9
+modified: 1660923335650
+created: 1660923082785
+url: localhost:3333/category/product
+name: Listar produtos por categoria
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_b27f8d909c984371a7ed069e50c3d2ea
+    name: category_id
+    value: 9a8f1b2a-910f-4714-a7cc-7cbe85aad4c8
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_921e71209f63418da3cd1075742f60b9
+    disabled: false
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660876978466.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

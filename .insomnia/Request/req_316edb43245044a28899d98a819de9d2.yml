@@ -1,0 +1,53 @@
+_id: req_316edb43245044a28899d98a819de9d2
+type: Request
+parentId: fld_9f03afb438ff4e328048b85300e556b9
+modified: 1660943133300
+created: 1660913830056
+url: localhost:3333/product
+name: Criar Product
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9722802e219d486aa2d401418dcee792
+      name: name
+      value: Coca-cola Lata 350ml
+      description: ""
+      disabled: false
+    - id: pair_83b5eaeab4ff40e082398ae91beec234
+      name: price
+      value: "5"
+      description: ""
+    - id: pair_4cffcb48c6c24e1fba87aabcdc47c08c
+      name: description
+      value: Coca-cola Lata 350ml
+      description: ""
+    - id: pair_f50d5a1a2260431487736a3297dba731
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\georg\Desktop\refrigerante_coca_cola_350ml.png
+      disabled: false
+    - id: pair_24dd535e57ab4fe58a2e978b8a8e98c0
+      name: category_id
+      value: 9a8f1b2a-910f-4714-a7cc-7cbe85aad4c8
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_921e71209f63418da3cd1075742f60b9
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660877278077.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

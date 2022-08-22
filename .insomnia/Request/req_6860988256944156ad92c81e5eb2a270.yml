@@ -1,0 +1,30 @@
+_id: req_6860988256944156ad92c81e5eb2a270
+type: Request
+parentId: fld_faa364274229473582486032c9349fae
+modified: 1661192162562
+created: 1660852202741
+url: localhost:3333/session
+name: Logar Usuario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"ge@gmail.com",
+    	"password":"123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8e384292e26544c3bc726c6d13c48df7
+authentication: {}
+metaSortKey: -1660876678755
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

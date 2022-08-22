@@ -1,0 +1,24 @@
+_id: req_4981d9f66a9142f58ca6eeb71e34250e
+type: Request
+parentId: fld_68e458063f94416c8e63d62835203fdc
+modified: 1660878104708
+created: 1660877877300
+url: localhost:3333/category
+name: Lista Categoria
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660877877300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_9f052eda01c94d30b085c3184fa17ac0
+type: Request
+parentId: fld_93eff4f967194728862bb2a1bea7626b
+modified: 1661176488204
+created: 1661176458268
+url: localhost:3333/order/finish
+name: Finish order
+description: ""
+method: PUT
+body: {}
+parameters:
+  - id: pair_c6e29d04db4246df9bfdca41361793ff
+    name: order_id
+    value: 0c22fa8a-9633-4a05-9369-3c58f1c5edd4
+    description: ""
+headers:
+  - id: pair_eb5a1269383f4239a68a0aa04fca655d
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660876983135.1758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

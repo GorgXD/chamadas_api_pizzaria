@@ -1,0 +1,28 @@
+_id: req_0c5a2a8acaeb4be3b88cc9fee524d003
+type: Request
+parentId: fld_93eff4f967194728862bb2a1bea7626b
+modified: 1660945639559
+created: 1660941212226
+url: localhost:3333/order
+name: Deletar Order
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_9986f5cbaa634599b127bd58979bc243
+    name: order_id
+    value: ec0d9d7c-fb31-4921-aabc-332da4bb30b8
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660877053369.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

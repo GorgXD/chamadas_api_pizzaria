@@ -1,0 +1,28 @@
+_id: req_7f9e37118ffe4a52bf5048da5a403cc4
+type: Request
+parentId: fld_93eff4f967194728862bb2a1bea7626b
+modified: 1660945644727
+created: 1660945498152
+url: localhost:3333/order/remove
+name: Deletar Item
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_9986f5cbaa634599b127bd58979bc243
+    name: item_id
+    value: 2b00aa67-a52d-422c-9874-42daccdf94bb
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660877015917.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

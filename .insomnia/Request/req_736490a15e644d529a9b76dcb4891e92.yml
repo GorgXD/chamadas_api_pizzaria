@@ -1,0 +1,32 @@
+_id: req_736490a15e644d529a9b76dcb4891e92
+type: Request
+parentId: fld_93eff4f967194728862bb2a1bea7626b
+modified: 1660966270264
+created: 1660963948963
+url: localhost:3333/order/send
+name: Update Order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_id":"0c22fa8a-9633-4a05-9369-3c58f1c5edd4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6b93745e408f449f95a8629133f3263f
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ2UiLCJlbWFpbCI6ImdlQGdtYWlsLmNvbSIsImlhdCI6MTY2MDg1ODQzMywiZXhwIjoxNjYzNDUwNDMzLCJzdWIiOiI1YTI2YjAxMy1jZTI3LTRlZWItYTc2Zi02YTA3NzhjYTE2OTMifQ.1P6_B4egbNF2Nz4kmFs1rL_hABkyYvnQTzjarbQXtSU
+  prefix: Bearer
+metaSortKey: -1660876997191.9531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
